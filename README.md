@@ -15,15 +15,16 @@ Drop characters into a level and press **Play**. They talk to each other, and wh
 
 ## 2. Play
 
-Within a few seconds the cast starts talking to each other. **Tony**, the template character, is standing right in front of you.
+The project opens on `BAB_Room`: three characters by the fire pit (Tony, the template character with the example Character Bible; Vati, a MetaHuman; Toucantino, a custom-rig bird). Within a few seconds they start talking to each other, live. **Nothing is scripted**: every line is generated as it happens, and every line you say comes from you. The camera is always yours.
 
 | Key | What it does |
 |---|---|
 | **WASD + mouse** | Walk and look |
 | **C** | Type a line to the character you are looking at (Enter sends, Esc closes) |
 | **T** (hold) | Talk out loud with your microphone. Let go to send. |
-| **V** | Director camera |
 | **U** | Load the newest guest-built Build a Bachelor character into whoever you are looking at |
+
+If they don't hear you: Window > Output Log shows the microphone used, its level and the words heard. Pick a microphone under Project Settings > Plugins > Fermata > Microphone.
 
 It works out of the box on a shared public event key. That key is rate limited and will be switched off after the event; when it is, the characters go quiet. To use your own key, go to **Project Settings > Plugins > Fermata > Fermata API Key**.
 
