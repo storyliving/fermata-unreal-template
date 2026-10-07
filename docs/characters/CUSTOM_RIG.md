@@ -2,7 +2,7 @@
 
 **Talking tier: depends on the rig.** Mouth blendshapes reach tier 2, a jaw or beak bone reaches tier 3, and anything else talks with its body plus a caption (tier 4).
 
-Worked example in `BAB_Villa`: **Marlowe**, an eight-legged spider (`SampleCharacters/marlowe_spider.glb`, 47 parts on one skeleton, multileg archetype, 12 baked clips). The custom-rig slot is now **Toucantino** (`SampleCharacters/customrig.glb`: 48 bones, a hinged beak driven by his Composer voice, look-at eyes, eyelids, brow morph targets, feather-fan wings, 15 clips). Rebuild: `tools/toucantino_import.py`, `tools/build_villa_map.py`, then `tools/toucantino_setup.py` (Composer character id, jaw cap 18 deg, gesture roles, lights and the film camera sequence).
+Worked example in `BAB_Villa`: **Marlowe**, an eight-legged spider (`SampleCharacters/marlowe_spider.glb`, 47 parts on one skeleton, multileg archetype, 12 baked clips). The custom-rig slot is now **Toucantino** (`SampleCharacters/customrig.glb`: 48 bones, a hinged beak driven by his Composer voice, look-at eyes, eyelids, brow morph targets, feather-fan wings, 15 clips). Rebuild: `tools/toucantino_import.py`, `tools/build_villa_map.py`, then `tools/toucantino_setup.py` (Composer character id, jaw cap 18 deg, gesture roles, lights). Play in `BAB_Villa` always starts in the normal walkable view: the film camera plan is NOT in that map. `tools/toucantino_film_setup.py` builds a separate film map (`/Game/Fermata/Film/BAB_Villa_Film`: cast cleared, Toucantino by the heart arch, nameplate, caption and mood light off, measured shot plan). Launch it with `-FermataNoHud` for a clean picture.
 
 ## Steps
 

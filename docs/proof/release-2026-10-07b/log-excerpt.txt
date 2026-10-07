@@ -1,0 +1,63 @@
+[2026.10.07-18.33.06:978][  0]LogModuleManager: InternalLoadLibrary: 'FermataEvent' ('C:/Users/jose/bab-zipproof3/BuildABachelor/Plugins/FermataEvent/Binaries/Win64/UnrealEditor-FermataEvent.dll')
+[2026.10.07-18.33.07:472][  0]LogFermataEvent: [FermataEvent] using the bundled public key (shared and revocable)
+[2026.10.07-18.33.07:472][  0]LogFermataEvent: [FermataEvent] HQ=https://hq.fermata.me eventKey=fevt__veU...
+[2026.10.07-18.33.49:369][  0]LogLoad: LoadMap: /Game/BuildABachelor/Maps/BAB_Villa?Name=Player
+[2026.10.07-18.33.53:026][  0]LogFermataEvent: [FermataEvent] director up: room=1 proof=1
+[2026.10.07-18.33.53:026][  0]LogFermataEvent: [FermataEvent] scene (FermataScene): The Build a Bachelor villa lounge on the water: a heart-shaped arch of lights, a fire pit with sofas around it, a pink-lit bar and a pool. When: Golden hour, about twenty minutes before the rose ceremony. Mood: Giddy and on edge. Everyone is being nice the way people are nice right before a vote. What is going on: The Last Rose sits on a brass pedestal by the fire pit and nobody will say who it is for. The bar ran out of ice an hour ago and everyone is blaming Chad. | player: A new arrival who walked in ten minutes ago with one suitcase. Nobody knows yet if they are competition.
+[2026.10.07-18.33.53:195][  0]LogFermataEvent: [FermataEvent] BP_FermataCharacter_MetaHuman_C_0: body driven by MM_Idle via RTG_metahuman_base_skel_AnimBP_C
+[2026.10.07-18.33.53:200][  0]LogFermataEvent: [FermataEvent] BP_FermataCharacter_MetaHuman_C_0: face driver installed on Face (post-process ABP ABP_Face_PostProcess_C)
+[2026.10.07-18.33.53:200][  0]LogFermataEvent: [FermataEvent] Vati talking tier: full face
+[2026.10.07-18.33.53:201][  0]LogFermataEvent: [FermataEvent] FermataCharacter_0: no MetaHuman face ('Face'); emotion shows on the nameplate and mood light.
+[2026.10.07-18.33.53:201][  0]LogFermataEvent: [FermataEvent] Chad talking tier: body talk + caption
+[2026.10.07-18.33.53:201][  0]LogFermataEvent: [FermataEvent] FermataCharacter_1: no MetaHuman face ('Face'); emotion shows on the nameplate and mood light.
+[2026.10.07-18.33.53:201][  0]LogFermataEvent: [FermataEvent] Willa talking tier: body talk + caption
+[2026.10.07-18.33.53:201][  0]LogFermataEvent: [FermataEvent] FermataCharacter_2: no MetaHuman face ('Face'); emotion shows on the nameplate and mood light.
+[2026.10.07-18.33.53:201][  0]LogFermataEvent: [FermataEvent] Raj talking tier: body talk + caption
+[2026.10.07-18.33.53:201][  0]LogFermataEvent: [FermataEvent] FermataRigCharacter_0: no MetaHuman face ('Face'); emotion shows on the nameplate and mood light.
+[2026.10.07-18.33.53:201][  0]LogFermataEvent: [FermataEvent] Vesper talking tier: body talk + caption
+[2026.10.07-18.33.53:201][  0]LogFermataEvent: [FermataEvent] FermataRigCharacter_0: Role Animator on CharacterMesh0, 28 roles, jaw=None
+[2026.10.07-18.33.53:202][  0]LogFermataEvent: [FermataEvent] FermataRigCharacter_1: no MetaHuman face ('Face'); emotion shows on the nameplate and mood light.
+[2026.10.07-18.33.53:202][  0]LogFermataEvent: [FermataEvent] Toucantino talking tier: jaw bone
+[2026.10.07-18.33.53:202][  0]LogFermataEvent: [FermataEvent] FermataRigCharacter_1: Role Animator on CharacterMesh0, 33 roles, jaw=jaw
+[2026.10.07-18.33.53:202][  0]LogFermataEvent: [FermataEvent] BP_MyCharacter_Template_C_0: no MetaHuman face ('Face'); emotion shows on the nameplate and mood light.
+[2026.10.07-18.33.53:202][  0]LogFermataEvent: [FermataEvent] Tony talking tier: body talk + caption
+[2026.10.07-18.33.53:202][  0]LogFermataEvent: [FermataEvent] Tony plays Character Bible DA_Bible_Example (voice from Ethan) | wants: To leave the villa with someone who'll let him teach them to parallel park. To Tony that is romance. | fears: Being the guy everybody likes and nobody picks. Also bridges, specifically the Verrazzano.
+[2026.10.07-18.33.53:207][  0]LogFermataEvent: [FermataEvent] autoplay: 1 line(s)
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Vati is aware of The Last Rose
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Vati is aware of The Confession Phone
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Vati is aware of The Mystery Cocktail
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Vati is aware of The Heart Arch
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Chad is aware of The Last Rose
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Chad is aware of The Confession Phone
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Chad is aware of The Mystery Cocktail
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Chad is aware of The Heart Arch
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Willa is aware of The Last Rose
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Willa is aware of The Confession Phone
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Willa is aware of The Mystery Cocktail
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Willa is aware of The Heart Arch
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Raj is aware of The Last Rose
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Raj is aware of The Mystery Cocktail
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Raj is aware of The Heart Arch
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Vesper is aware of The Last Rose
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Vesper is aware of The Confession Phone
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Vesper is aware of The Mystery Cocktail
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Vesper is aware of The Heart Arch
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Toucantino is aware of The Last Rose
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Toucantino is aware of The Mystery Cocktail
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Toucantino is aware of The Heart Arch
+[2026.10.07-18.34.03:572][  0]LogFermataEvent: [FermataEvent] Tony is aware of The Last Rose
+[2026.10.07-18.34.03:573][  0]LogFermataEvent: [FermataEvent] Tony is aware of The Confession Phone
+[2026.10.07-18.34.03:573][  0]LogFermataEvent: [FermataEvent] Tony is aware of The Heart Arch
+[2026.10.07-18.34.19:546][741]LogFermataEvent: [FermataEvent] room -> 200 BP_FermataCharacter_MetaHuman_C_0->FermataCharacter_2 emotion=disgusted "Raj, darling, do you feel that heat? Not the sun-no, no-that simmer of saints and sinners ready to implode beneath these fairy lights. You think you're playing for keeps, but honey, most of them wouldn't know a grand gesture if it serenaded them naked in a diamond bath. Tell me, are you here to set this villa aflame, or are you just pretending your sparks won't burn the curtains?" audio=553839 bytes 
+[2026.10.07-18.34.19:548][742]LogFermataEvent: [FermataEvent] conversation started: Vati + Raj
+[2026.10.07-18.34.19:548][742]LogFermataEvent: [FermataEvent] Vati emotion neutral -> disgusted
+[2026.10.07-18.34.34:144][867]LogFermataEvent: [FermataEvent] autoplay says: @to:Tony Hey, I just got here. What did I miss?
+[2026.10.07-18.34.34:144][867]LogFermataEvent: [FermataEvent] conversation started: Tony + player
+[2026.10.07-18.34.40:536][566]LogFermataEvent: [FermataEvent] say -> 200 emotion=skeptical reply="Listen, Guest, what you missed? You missed Chad hoggin' that damn rose like it's the last slice of pizza at a family dinner. You missed Willa givin' off these icy vibes that could freeze Lorraine's engine, and Vati sittin' there classy but clockin' everyone like a hawk. And me? I been watchin' you like a curious driver at a four-way stop-still don't know if you're gonna nail the turn or stall out. This night's full of fakes and fierce eyes, and you just walked into the middle of it, you know what I mean?" audio=553004 bytes 
+[2026.10.07-18.34.40:536][566]LogFermataEvent: [FermataEvent] Tony emotion neutral -> skeptical
+[2026.10.07-18.35.20:079][800]LogFermataEvent: [FermataEvent] conversation ended: Vati + Raj
+[2026.10.07-18.35.20:530][860]LogFermataEvent: [FermataEvent] conversation ended: Tony + player
+[2026.10.07-18.35.25:669][543]LogFermataEvent: [FermataEvent] room -> 200 BP_FermataCharacter_MetaHuman_C_0->BP_MyCharacter_Template_C_0 emotion=skeptical "Oh, Tony, darling, watching you play traffic control with charm is almost as entertaining as Chad clutching that rose like it's the last caviar canap‚ at my private soir‚e-almost. But remember, fascination only gets you so far in this symphony of souls." audio=374953 bytes 
+[2026.10.07-18.35.25:671][544]LogFermataEvent: [FermataEvent] conversation started: Vati + Tony
+[2026.10.07-18.35.25:671][544]LogFermataEvent: [FermataEvent] Vati emotion disgusted -> skeptical
+[2026.10.07-18.35.29:820][ 59]LogFermataEvent: [FermataEvent] proof run complete: 4 transcript lines
