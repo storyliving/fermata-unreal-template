@@ -14,7 +14,7 @@ Any 3D character can be a talking Fermata character: a MetaHuman, a Tripo model,
 | a Tripo model (text or image to 3D) | the any-rig template | `BP_FermataCharacter_AnyRig` | [Tripo](characters/TRIPO.md) |
 | any rigged FBX or GLB (bird, creature, spider, car, custom humanoid) | the any-rig template | `BP_FermataCharacter_AnyRig` | [Custom rig](characters/CUSTOM_RIG.md) |
 
-All four stand in the demo level `BAB_Villa`. Press Play and they talk to each other.
+`BAB_Room` (the default level) has a Mannequin (Tony), a MetaHuman (Vati) and a custom rig (Toucantino). `BAB_Villa` also has the Tripo owl. Press Play and they talk to each other.
 
 | Type | In the demo | Talking tier it reaches |
 |---|---|---|
@@ -60,7 +60,7 @@ What works today, and what does not:
 - **In the editor today:** import the guest's GLB/FBX with the [Custom rig](characters/CUSTOM_RIG.md) steps. Five minutes per character.
 - **At play time, inside the editor:** Unreal 5.8's Interchange glTF importer can run while the game plays in the editor, so **U** can download the guest's rigged GLB and import it on the spot. This is the next build step. It needs the backend to hand out the guest's rigged GLB link next to their bio.
 - **In a packaged game:** use [glTFRuntime](https://github.com/rdeioris/glTFRuntime) (MIT licence, maintained). It loads skeletal meshes and animations from a GLB at runtime without editor code.
-- **Rigging and role clips for uploads:** the anim-roles pipeline detects the rig's archetype, maps its clips to roles and bakes the missing ones in Blender. It runs on our machines today, not yet as a hosted service behind the upload.
+- **Rigging and role clips for uploads:** Fermata's own pipeline can detect a rig's type, match clips to roles and make missing ones in Blender. It runs on Fermata's machines today; it is not in this project and not yet a hosted service behind the upload. In this project, map clips to roles by hand or with `Content/Python/fermata_roles.py` ([how](characters/CUSTOM_RIG.md#map-your-animations-to-roles)).
 
 ## What the plugin does and does not contain
 

@@ -8,7 +8,7 @@ You only edit text. There is no Blueprint graph to wire and no code. Change a fi
 
 You need: Unreal Engine 5.8, and this project opened (`BuildABachelor.uproject`). If you have not installed it yet, see the [README](../README.md#1-install).
 
-Screenshots for each step are in [`images/bible/`](images/bible/), linked from each step.
+Each step links a real editor screenshot (UE 5.8, this project); all of them are in [`images/guide/`](images/guide/).
 
 ---
 
@@ -16,10 +16,10 @@ Screenshots for each step are in [`images/bible/`](images/bible/), linked from e
 
 1. Open `Content/Fermata/Bibles/DA_Bible_Example`. Change **Fears** to something else, for example *"Geese. One chased him across a parking lot in 2016."*
 2. Save (Ctrl+S).
-3. Press **Play** in `BAB_Villa`. Tony stands right in front of you.
+3. Press **Play** (the project opens on `BAB_Room`). Tony is one of the three characters right in front of you.
 4. Look at Tony, press **C**, type *What are you scared of?* and press Enter.
 
-Tony's answers change: the bridges he was afraid of are gone, and geese come up. He also remembers your earlier conversations with him, so he may mix in what you talked about before.
+Tony answers about geese.
 
 ---
 
@@ -30,7 +30,7 @@ The starting point is `Content/Fermata/Templates/BP_MyCharacter_Template`. It co
 - the **Bible** slot already filled with the example bible, `DA_Bible_Example` (Tony Pellegrino, a driving instructor from Staten Island);
 - three events already placed in its Event Graph, each in a comment box that says what it is for: **On Emotion Changed**, **On Line Spoken** and **On Aware Of Object**. Each one prints to the screen until you replace the Print String with your own nodes.
 
-Screenshot: [BP_MyCharacter_Template, with the start-here comment and the three stubbed events](images/bible/02_template_bp.png)
+Screenshots: [the Event Graph, whole](images/guide/07_template_event_graph.png) · [one event up close](images/guide/07b_template_event_zoom.png) · [the Bible slot on the Fermata component](images/guide/06_component_bible_slot.png)
 
 To make your own:
 
@@ -46,7 +46,7 @@ The other templates (`BP_FermataCharacter`, `BP_FermataCharacter_MetaHuman` and 
 
 Double click your bible asset. Every field is plain text.
 
-Screenshot: [DA_Bible_Example open in the Data Asset editor](images/bible/01_bible_asset.png)
+Screenshots: [DA_Bible_Example open](images/guide/05_bible_asset.png) · [where it lives in the Content Browser](images/guide/02_content_bibles.png)
 
 | Field | What to write | Limit |
 |---|---|---|
@@ -89,9 +89,9 @@ The **Fermata** component can be told who the character is in four ways. The fir
 
 ## 3. Set the Scene Description
 
-Each level can have one **Fermata Scene** actor. `BAB_Villa` has one, called `FermataScene` (find it in the Outliner under the **Scene** folder). Select it and fill in **Details > Scene**.
+Each level can have one **Fermata Scene** actor. `BAB_Room` and `BAB_Villa` each have one, called `FermataScene` (find it in the Outliner under the **Scene** folder). Select it and fill in **Details > Scene**.
 
-Screenshot: [the FermataScene actor selected in BAB_Villa, with its Scene fields in Details](images/bible/03_scene_actor.png)
+Screenshots: [the FermataScene actor and its Scene fields](images/guide/04_scene_actor.png) · [the Outliner with BAB_Villa loaded](images/guide/03_outliner.png)
 
 | Field | Example (from `BAB_Villa`) |
 |---|---|
@@ -126,17 +126,12 @@ Open your Blueprint's **Event Graph**. The three stubs are already there:
 
 More events, such as **On Line Heard**, **On Conversation Started** and **On Conversation Ended**, are on the **Fermata** component's Details panel under **Events**. Click **+** next to one to add it. The full list is in the [README](../README.md#5-hook-custom-behaviour).
 
-## Known limit (2026-10-07)
+## Memory
 
-The server update that reads every bible and scene field on its own (HQ PR #35) is awaiting approval. Until it is live:
-- **Bible:** the plugin also sends a packed copy, which today's server reads. Everything still reaches the character:
-  - Who They Are, Wants, Fears, How They Talk and Quirks as one 800-character summary;
-  - Life So Far and Relationships as one 1200-character description.
-
-  Very long bibles get cut at those limits. Secret and Example Lines are only used after the update.
-- **Scene Description:** only **Setting** (first 160 characters) reaches the characters today, together with the Aware Objects. Time Of Day, Mood, What Is Going On and Who The Player Is are sent and logged, and take effect when the update is live. You do not need to change anything in the project.
-- **Memory:** a character remembers your earlier conversations with it, keyed by its **Name** on your machine. After you change a bible, Tony may repeat what he said before. To start fresh right away, also change **Name**. Once the update is live, every bible edit starts a fresh memory automatically.
+Characters remember what you said to them, on your machine. A Character Bible is part of that memory's key: change any field, and the next Play meets a fresh version of the character who has not heard your old conversations. Change it back, and they remember again.
 
 ## Proof
+
+A Play In Editor frame mid-conversation: [images/guide/10_pie_conversation.png](images/guide/10_pie_conversation.png).
 
 What Tony said, before and after a one-field bible change, is in [`proof/bible/`](proof/bible/). It was run on the release zip, unzipped to a fresh folder.
