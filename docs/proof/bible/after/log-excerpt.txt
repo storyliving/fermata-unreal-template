@@ -1,0 +1,24 @@
+[2026.10.07-17.01.22:098][  0]LogModuleManager: InternalLoadLibrary: 'FermataEvent' ('C:/Users/jose/bab-zipproof/BuildABachelor/Plugins/FermataEvent/Binaries/Win64/UnrealEditor-FermataEvent.dll')
+[2026.10.07-17.01.24:571][  0]LogFermataEvent: [FermataEvent] director up: room=1 proof=1
+[2026.10.07-17.01.24:571][  0]LogFermataEvent: [FermataEvent] scene (FermataScene): The Build a Bachelor villa lounge on the water: a heart-shaped arch of lights, a fire pit with sofas around it, a pink-lit bar and a pool. When: Golden hour, about twenty minutes before the rose ceremony. Mood: Giddy and on edge. Everyone is being nice the way people are nice right before a vote. What is going on: The Last Rose sits on a brass pedestal by the fire pit and nobody will say who it is for. The bar ran out of ice an hour ago and everyone is blaming Chad. | player: A new arrival who walked in ten minutes ago with one suitcase. Nobody knows yet if they are competition.
+[2026.10.07-17.01.24:674][  0]LogFermataEvent: [FermataEvent] Tony talking tier: body talk + caption
+[2026.10.07-17.01.24:674][  0]LogFermataEvent: [FermataEvent] Tony plays Character Bible DA_Bible_Example (voice from Ethan) | wants: To leave the villa with someone who'll let him teach them to parallel park. To Tony that is romance. | fears: Geese. One chased him across the parking lot of the Staten Island Mall in 2016 and he still checks for them before he ge
+[2026.10.07-17.01.24:674][  0]LogFermataEvent: [FermataEvent] autoplay: 3 line(s)
+[2026.10.07-17.01.24:923][  0]LogFermataEvent: [FermataEvent] Tony is aware of The Last Rose
+[2026.10.07-17.01.24:923][  0]LogFermataEvent: [FermataEvent] Tony is aware of The Confession Phone
+[2026.10.07-17.01.24:923][  0]LogFermataEvent: [FermataEvent] Tony is aware of The Heart Arch
+[2026.10.07-17.01.30:904][699]LogFermataEvent: [FermataEvent] autoplay says: @to:Tony What are you scared of?
+[2026.10.07-17.01.34:244][696]LogFermataEvent: [FermataEvent] room -> 200 BP_FermataCharacter_MetaHuman_C_0->FermataCharacter_1 emotion=disgusted "Willa, darling, would you look at this? I've managed to drape myself in sequins and spilled prosecco before the night ev" audio=452693 bytes 
+[2026.10.07-17.01.37:781][ 25]LogFermataEvent: [FermataEvent] say -> 200 emotion=curious reply="Listen, I'm scared of lettin' someone in and then watchin' `em drive off like Gina did-passed first try, then poof, gone" audio=339008 bytes 
+[2026.10.07-17.01.37:782][ 25]LogFermataEvent: [FermataEvent] Tony emotion neutral -> curious
+[2026.10.07-17.01.59:153][145]LogFermataEvent: [FermataEvent] autoplay says: @to:Tony So what is going on tonight? Fill me in.
+[2026.10.07-17.02.06:557][365]LogFermataEvent: [FermataEvent] say -> 200 emotion=skeptical reply="Listen, tonight's like watchin' a Honda Civic tryin' to do a burnout on slick pavement-everyone's revvin' but nobody's t" audio=668360 bytes 
+[2026.10.07-17.02.06:558][365]LogFermataEvent: [FermataEvent] Tony emotion curious -> skeptical
+[2026.10.07-17.02.48:411][356]LogFermataEvent: [FermataEvent] autoplay says: @to:Tony Be honest. Who am I to you?
+[2026.10.07-17.02.56:190][363]LogFermataEvent: [FermataEvent] say -> 200 emotion=skeptical reply="Listen, Guest, you're the crack in my windshield I don't know if I wanna fix or just keep looking through-`cause fixing " audio=484040 bytes 
+[2026.10.07-17.03.35:682][148]LogFermataEvent: [FermataEvent] room -> 200 FermataRigCharacter_0->BP_FermataCharacter_MetaHuman_C_0 emotion=skeptical "You're pretending to stall, Vati, but everyone's watching for the moment you slam the gas. Question is-are you actually " audio=181438 bytes 
+[2026.10.07-17.03.48:914][300]LogFermataEvent: [FermataEvent] room -> 200 BP_FermataCharacter_MetaHuman_C_0->FermataRigCharacter_0 emotion=skeptical "Burning rubber, darling? Please. I'm more like a vintage Rolls-luxurious, slow to start, but once I glide, the whole dam" audio=305154 bytes 
+[2026.10.07-17.04.09:600][517]LogFermataEvent: [FermataEvent] room -> 200 FermataCharacter_2->BP_MyCharacter_Template_C_0 emotion=disgusted "Tony, you say you're scared of getting wrecked like Gina, but holding onto that fear's the fastest way to crash your own" audio=197320 bytes 
+[2026.10.07-17.04.14:502][541]LogFermataEvent: [FermataEvent] proof run complete: 9 transcript lines
+[2026.10.07-17.01.02:412][  0]LogModuleManager: InternalLoadLibrary: 'FermataEvent' ('C:/Users/jose/bab-zipproof/BuildABachelor/Plugins/FermataEvent/Binaries/Win64/UnrealEditor-FermataEvent.dll')
+[2026.10.07-17.01.06:613][  2]LogPython: [BAB-BIBLE] /Game/Fermata/Bibles/DA_Bible_Example.fears: "'Geese." -> "Geese. One chased him across the parking lot of the Staten Island Mall in 2016 and he still checks for them before he gets out of the car."
