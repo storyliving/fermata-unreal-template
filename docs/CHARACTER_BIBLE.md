@@ -135,6 +135,7 @@ The server update that reads every bible and scene field on its own (HQ PR #35) 
 
   Very long bibles get cut at those limits. Secret and Example Lines are only used after the update.
 - **Scene Description:** only **Setting** (first 160 characters) reaches the characters today, together with the Aware Objects. Time Of Day, Mood, What Is Going On and Who The Player Is are sent and logged, and take effect when the update is live. You do not need to change anything in the project.
+- **Memory:** a character remembers your earlier conversations with it, keyed by its **Name** on your machine. After you change a bible, Tony may repeat what he said before. To start fresh right away, also change **Name**. Once the update is live, every bible edit starts a fresh memory automatically.
 
 ## Proof
 

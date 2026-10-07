@@ -1,22 +1,22 @@
-[2026.10.07-16.53.08:338][  0]LogModuleManager: InternalLoadLibrary: 'FermataEvent' ('C:/Users/jose/bab-zipproof/BuildABachelor/Plugins/FermataEvent/Binaries/Win64/UnrealEditor-FermataEvent.dll')
-[2026.10.07-16.53.10:776][  0]LogFermataEvent: [FermataEvent] director up: room=1 proof=1
-[2026.10.07-16.53.10:776][  0]LogFermataEvent: [FermataEvent] scene (FermataScene): The Build a Bachelor villa lounge on the water: a heart-shaped arch of lights, a fire pit with sofas around it, a pink-lit bar and a pool. When: Golden hour, about twenty minutes before the rose ceremony. Mood: Giddy and on edge. Everyone is being nice the way people are nice right before a vote. What is going on: The Last Rose sits on a brass pedestal by the fire pit and nobody will say who it is for. The bar ran out of ice an hour ago and everyone is blaming Chad. | player: A new arrival who walked in ten minutes ago with one suitcase. Nobody knows yet if they are competition.
-[2026.10.07-16.53.10:870][  0]LogFermataEvent: [FermataEvent] Tony talking tier: body talk + caption
-[2026.10.07-16.53.10:870][  0]LogFermataEvent: [FermataEvent] Tony plays Character Bible DA_Bible_Example (voice from Ethan) | wants: To leave the villa with someone who'll let him teach them to parallel park. To Tony that is romance. | fears: Being the guy everybody likes and nobody picks. Also bridges, specifically the Verrazzano.
-[2026.10.07-16.53.10:870][  0]LogFermataEvent: [FermataEvent] autoplay: 3 line(s)
-[2026.10.07-16.53.12:039][  0]LogFermataEvent: [FermataEvent] Tony is aware of The Last Rose
-[2026.10.07-16.53.12:039][  0]LogFermataEvent: [FermataEvent] Tony is aware of The Confession Phone
-[2026.10.07-16.53.12:039][  0]LogFermataEvent: [FermataEvent] Tony is aware of The Heart Arch
-[2026.10.07-16.53.18:023][602]LogFermataEvent: [FermataEvent] autoplay says: @to:Tony What are you scared of?
-[2026.10.07-16.53.21:183][123]LogFermataEvent: [FermataEvent] room -> 200 FermataCharacter_1->FermataRigCharacter_0 emotion=neutral "Vesper, the Mystery Cocktail just blinked at me like it knows my secrets. I'm deciding if that's an invitation or a thre" audio=186035 bytes 
-[2026.10.07-16.53.26:128][764]LogFermataEvent: [FermataEvent] say -> 200 emotion=curious reply="Listen, I'm scared of gettin' too comfortable, you know? Like, one minute you're teachin' someone to parallel park, next" audio=466068 bytes 
-[2026.10.07-16.53.26:128][764]LogFermataEvent: [FermataEvent] Tony emotion neutral -> curious
-[2026.10.07-16.53.55:425][762]LogFermataEvent: [FermataEvent] autoplay says: @to:Tony So what is going on tonight? Fill me in.
-[2026.10.07-16.54.01:412][311]LogFermataEvent: [FermataEvent] say -> 200 emotion=fearful reply="Listen, Guest, what's goin' on tonight is all smoke and mirrors. Chad's clutchin' that rose like it's a damn trophy, but" audio=686751 bytes 
-[2026.10.07-16.54.01:413][311]LogFermataEvent: [FermataEvent] Tony emotion curious -> fearful
-[2026.10.07-16.54.44:429][448]LogFermataEvent: [FermataEvent] autoplay says: @to:Tony Be honest. Who am I to you?
-[2026.10.07-16.54.51:291][715]LogFermataEvent: [FermataEvent] say -> 200 emotion=skeptical reply="Listen, Guest, you're like that sketch in my notebook I keep doodlin' but never quite finish. You're the one I'm scared " audio=536703 bytes 
-[2026.10.07-16.54.51:291][715]LogFermataEvent: [FermataEvent] Tony emotion fearful -> skeptical
-[2026.10.07-16.55.35:206][184]LogFermataEvent: [FermataEvent] room -> 200 FermataCharacter_2->FermataRigCharacter_0 emotion=disgusted "Vesper, you're watching all this like it's a chess game, but not making a move. I need to know if you're playing for kee" audio=222398 bytes 
-[2026.10.07-16.55.54:460][821]LogFermataEvent: [FermataEvent] room -> 200 FermataRigCharacter_0->FermataCharacter_2 emotion=skeptical "Playing for keeps is an expensive gamble when half the players bluff like they're holding kings but fold at the first wh" audio=262522 bytes 
-[2026.10.07-16.56.01:663][982]LogFermataEvent: [FermataEvent] proof run complete: 8 transcript lines
+[2026.10.07-17.33.24:263][  0]LogModuleManager: InternalLoadLibrary: 'FermataEvent' ('C:/Users/jose/bab-zipproof2/BuildABachelor/Plugins/FermataEvent/Binaries/Win64/UnrealEditor-FermataEvent.dll')
+[2026.10.07-17.34.16:196][  0]LogFermataEvent: [FermataEvent] director up: room=1 proof=1
+[2026.10.07-17.34.16:196][  0]LogFermataEvent: [FermataEvent] scene (FermataScene): The Build a Bachelor villa lounge on the water: a heart-shaped arch of lights, a fire pit with sofas around it, a pink-lit bar and a pool. When: Golden hour, about twenty minutes before the rose ceremony. Mood: Giddy and on edge. Everyone is being nice the way people are nice right before a vote. What is going on: The Last Rose sits on a brass pedestal by the fire pit and nobody will say who it is for. The bar ran out of ice an hour ago and everyone is blaming Chad. | player: A new arrival who walked in ten minutes ago with one suitcase. Nobody knows yet if they are competition.
+[2026.10.07-17.34.16:327][  0]LogFermataEvent: [FermataEvent] Tony talking tier: body talk + caption
+[2026.10.07-17.34.16:327][  0]LogFermataEvent: [FermataEvent] Tony plays Character Bible DA_Bible_Example (voice from Ethan) | wants: To leave the villa with someone who'll let him teach them to parallel park. To Tony that is romance. | fears: Being the guy everybody likes and nobody picks. Also bridges, specifically the Verrazzano.
+[2026.10.07-17.34.16:327][  0]LogFermataEvent: [FermataEvent] autoplay: 3 line(s)
+[2026.10.07-17.34.25:137][  0]LogFermataEvent: [FermataEvent] Tony is aware of The Last Rose
+[2026.10.07-17.34.25:138][  0]LogFermataEvent: [FermataEvent] Tony is aware of The Confession Phone
+[2026.10.07-17.34.25:138][  0]LogFermataEvent: [FermataEvent] Tony is aware of The Heart Arch
+[2026.10.07-17.34.31:135][988]LogFermataEvent: [FermataEvent] autoplay says: @to:Tony What are you scared of?
+[2026.10.07-17.34.32:133][629]LogFermataEvent: [FermataEvent] room -> 200 FermataCharacter_1->FermataCharacter_0 emotion=disgusted "Chad, roses don't just land in your hand because you're loud enough to scare them-they come when the whispers behind you" audio=196484 bytes 
+[2026.10.07-17.34.37:212][122]LogFermataEvent: [FermataEvent] say -> 200 emotion=curious reply="Listen, I'm scared of ending up like Gina-passin' first try and then drivin' straight to Ray's place. That's the kind of" audio=526254 bytes 
+[2026.10.07-17.34.37:212][122]LogFermataEvent: [FermataEvent] Tony emotion neutral -> curious
+[2026.10.07-17.35.10:345][649]LogFermataEvent: [FermataEvent] autoplay says: @to:Tony So what is going on tonight? Fill me in.
+[2026.10.07-17.35.17:769][924]LogFermataEvent: [FermataEvent] say -> 200 emotion=skeptical reply="Listen, tonight's like watchin' Chad tryin' to parallel park a truck in a compact spot-he's all over the place, bossin' " audio=691348 bytes 
+[2026.10.07-17.35.17:769][924]LogFermataEvent: [FermataEvent] Tony emotion curious -> skeptical
+[2026.10.07-17.36.01:217][947]LogFermataEvent: [FermataEvent] autoplay says: @to:Tony Be honest. Who am I to you?
+[2026.10.07-17.36.18:342][269]LogFermataEvent: [FermataEvent] say -> 200 emotion=curious reply="Listen, Guest, you're that mystery I'm too stubborn to quit but too scarred to fully trust. You're the detour I'm watchi" audio=316857 bytes 
+[2026.10.07-17.36.18:342][269]LogFermataEvent: [FermataEvent] Tony emotion skeptical -> curious
+[2026.10.07-17.36.20:629][ 19]LogFermataEvent: [FermataEvent] room -> 200 FermataCharacter_1->FermataRigCharacter_1 emotion=disgusted "Toucantino, you're standing like you own the silence but forgetting that in this room, silence always screams. What are " audio=208187 bytes 
+[2026.10.07-17.37.01:496][115]LogFermataEvent: [FermataEvent] room -> 200 FermataRigCharacter_1->FermataCharacter_1 emotion=skeptical "Willa, I'm not hiding. I'm composing the shot no one else dares frame-the chaos before the storm, where every quiet brea" audio=275712 bytes 
+[2026.10.07-17.37.15:130][158]LogFermataEvent: [FermataEvent] proof run complete: 8 transcript lines

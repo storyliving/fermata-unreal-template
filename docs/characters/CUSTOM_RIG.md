@@ -2,7 +2,7 @@
 
 **Talking tier: depends on the rig.** Mouth blendshapes reach tier 2, a jaw or beak bone reaches tier 3, and anything else talks with its body plus a caption (tier 4).
 
-Worked example in `BAB_Villa`: **Marlowe**, an eight-legged spider (`SampleCharacters/marlowe_spider.glb`, 47 parts on one skeleton, multileg archetype, 12 baked clips). He holds the custom-rig slot until **Toucantino** lands: drop Toucantino's file into `SampleCharacters/` as `customrig.glb` with `customrig.runtime.json` and re-run `tools/import_sample_characters.py` and `tools/build_villa_map.py`.
+Worked example in `BAB_Villa`: **Marlowe**, an eight-legged spider (`SampleCharacters/marlowe_spider.glb`, 47 parts on one skeleton, multileg archetype, 12 baked clips). The custom-rig slot is now **Toucantino** (`SampleCharacters/customrig.glb`: 48 bones, a hinged beak driven by his Composer voice, look-at eyes, eyelids, brow morph targets, feather-fan wings, 15 clips). Rebuild: `tools/toucantino_import.py`, `tools/build_villa_map.py`, then `tools/toucantino_setup.py` (Composer character id, jaw cap 18 deg, gesture roles, lights and the film camera sequence).
 
 ## Steps
 
